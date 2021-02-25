@@ -1,0 +1,45 @@
+h2 {
+  padding-left: 6%;
+  padding-bottom: 1%;
+}
+.bloc {
+  padding: 5.5% 8%;
+  background-color: #d3ecff;
+}
+#blocpresentationfamily {
+  display: flex;
+}
+.blocpersonnage {
+  text-align: center;
+}
+.photofamily {
+  width: 65%;
+}
+p {
+  font-size: 1.6rem;
+}
+/*Responsive*/
+@media all and (max-width: 1400px) {
+  .bloc {
+    padding: 3.4% 8%;
+  }
+}
+@media all and (max-width: 1024px) {
+  .photofamily {
+    width: 85%;
+  }
+  .bloc {
+    padding: 1.6% 8%;
+  }
+  #blocpresentationfamily {
+    display: flex;
+    flex-flow: column;
+  }
+  .photofamily {
+    width: 60%;
+  }
+  h2 {
+    padding-left: 0;
+    text-align: center;
+  }
+}

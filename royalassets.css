@@ -1,0 +1,76 @@
+#resulttable {
+  padding: 8% 20% 17.5% 20%;
+  background-color: #d3ecff;
+}
+h2 {
+  padding-bottom: 2%;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid rgba(78, 228, 220);
+  box-shadow: 20px 20px 10px 4px rgb(78, 228, 220, 0.5);
+  text-align: center;
+}
+thead th {
+  font-size: 1.3rem;
+  background-color: #f4f1c0;
+  font-weight: bold;
+}
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 50%;
+}
+th,
+td {
+  padding: 10px;
+  border-collapse: collapse;
+  border: 1px solid rgba(248, 252, 7, 0.753);
+}
+td {
+  font-family: "Squada One", cursive;
+}
+table tr:nth-child(2n + 0) {
+  background-color: #f4f1c0;
+}
+table tr:nth-child(2n + 1) {
+  background-color: #ffff;
+}
+/*Responsive*/
+@media all and (max-width: 1400px) {
+  #resulttable {
+    padding: 8% 20% 9.5% 20%;
+  }
+}
+@media all and (max-width: 1024px) {
+  #resulttable {
+    padding: 1% 13% 6% 13%;
+  }
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+
+  thead th:nth-child(2) {
+    width: 30%;
+  }
+
+  thead th:nth-child(3) {
+    width: 30%;
+  }
+}
+@media all and (max-width: 625px) {
+  #resulttable {
+    padding: 9% 5% 20.7% 5%;
+  }
+  thead th {
+    font-size: 1rem;
+  }
+}

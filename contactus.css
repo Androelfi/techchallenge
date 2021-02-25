@@ -1,0 +1,73 @@
+p {
+  font-size: 1.2rem;
+}
+#contact {
+  padding: 5% 30% 9% 30%;
+  background-color: #d3ecff;
+}
+form {
+  display: grid;
+}
+.alllabel {
+  display: contents;
+  font-size: 1.2rem;
+}
+label,
+input,
+textarea {
+  margin: 1% 0;
+}
+input {
+  height: 50%;
+  font-size: 1.2rem;
+}
+#civility {
+  font-size: 1.2rem;
+}
+#button {
+  height: 70%;
+}
+/*Responsive*/
+@media all and (max-width: 1400px) {
+  #contact {
+    padding: 2% 30% 1.7% 30%;
+  }
+}
+@media all and (max-width: 1024px) {
+  p {
+    font-size: 1rem;
+  }
+  .alllabel {
+    font-size: 1rem;
+  }
+  input {
+    font-size: 1rem;
+  }
+  #civility {
+    font-size: 1rem;
+  }
+  #contact {
+    padding: 1% 30% 0.5% 30%;
+  }
+  h2 {
+    margin: 0;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+@media all and (max-width: 625px) {
+  #contact {
+    padding: 3% 15% 9.6% 15%;
+  }
+  h2 {
+    padding: 3% 0;
+  }
+  p {
+    padding: 3% 0;
+    text-align: center;
+  }
+  #button {
+    height: 90%;
+  }
+}
